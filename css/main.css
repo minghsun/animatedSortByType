@@ -1,0 +1,157 @@
+/* line 17, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/main.scss */
+body {
+  padding-top: 50px;
+  background-color: #ddd;
+}
+
+/* line 12, ../sass/main.scss */
+nav {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+/* line 17, ../sass/main.scss */
+nav ul li {
+  cursor: pointer;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 25px;
+}
+/* line 25, ../sass/main.scss */
+nav ul li:nth-child(1) {
+  background-color: #ff7979;
+}
+/* line 28, ../sass/main.scss */
+nav ul li:nth-child(2) {
+  background-color: #5be3b8;
+}
+/* line 31, ../sass/main.scss */
+nav ul li:nth-child(3) {
+  background-color: #68a8ff;
+}
+
+/* line 37, ../sass/main.scss */
+.content-list-wrapper {
+  margin: 0 auto;
+  width: 800px;
+}
+/* line 40, ../sass/main.scss */
+.content-list-wrapper ul.content-list {
+  position: relative;
+}
+/* line 42, ../sass/main.scss */
+.content-list-wrapper ul.content-list > li {
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 5px;
+  /*
+  @include transition-property(all);
+  @include transition-duration(0.5s);
+  @include transition-timing-function(ease-in);*/
+}
+/* line 54, ../sass/main.scss */
+.content-list-wrapper ul.content-list > li ul.types {
+  float: right;
+  width: 15px;
+}
+/* line 57, ../sass/main.scss */
+.content-list-wrapper ul.content-list > li ul.types li {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 64, ../sass/main.scss */
+.content-list-wrapper ul.content-list > li ul.types li.type1 {
+  background-color: #ff7979;
+}
+/* line 67, ../sass/main.scss */
+.content-list-wrapper ul.content-list > li ul.types li.type2 {
+  background-color: #5be3b8;
+}
+/* line 70, ../sass/main.scss */
+.content-list-wrapper ul.content-list > li ul.types li.type3 {
+  background-color: #68a8ff;
+}
